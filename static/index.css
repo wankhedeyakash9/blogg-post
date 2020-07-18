@@ -1,0 +1,89 @@
+*
+{
+    scroll-behavior: smooth;
+}
+
+.page-header
+{
+    background-color: #117a8b;
+    color : whitesmoke;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+#username
+{
+    text-align: right;
+}
+#username > .dropdown > #dropdownMenuLink
+{
+    color: whitesmoke;
+}   
+#form-blog
+{
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+#myblogs
+{
+    padding: 15px 30px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+.page-header  >a, .page-header > a:hover
+{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 500ms ease;
+  
+}
+
+.comments > div > b
+{
+    color: #7f8a96;
+}
+
+.page-header > a:hover
+{
+    box-shadow: 0px 5px 2px ;
+}
+.page-header > * 
+{
+    padding-top: 20px;
+}
+
+.postDetails
+{
+    text-align: right;
+    color: #7f8a96;
+    font-weight: bold;
+}
+
+
+.blog
+{
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    box-shadow: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.backgrd{
+    min-height: 340px;
+    background: url('./about-plan.jpg') no-repeat ;
+    background-size: cover ; 
+    padding-top:10%  ; 
+    height: 70%; 
+    width: 100%  ;
+}
+@media only screen and (max-width:500px)
+{
+    .backgrd{height: 50%;}
+}
